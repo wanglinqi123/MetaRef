@@ -1,4 +1,4 @@
-# MetaRef：A pipeline for constructing reference genomes for large cohort-specific metagenome compression
+# MetaRef: A pipeline for constructing reference genomes for large cohort-specific metagenome compression
 
 ## 1 Introduction
 
