@@ -1,0 +1,3 @@
+id	fq1	fq2
+test1	test_data/fq/test1_1.fq.gz	test_data/fq/test1_2.fq.gz
+test2	test_data/fq/test2_1.fq.gz	test_data/fq/test2_2.fq.gz

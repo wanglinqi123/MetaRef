@@ -1,0 +1,3 @@
+id	path
+ref_1	test_data/ref/ref_1.fa
+ref_2	test_data/ref/ref_2.fa
