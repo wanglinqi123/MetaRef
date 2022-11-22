@@ -47,7 +47,7 @@ For environmental data, it is recommended to use both MetaPhlAn3_db_25k and Env_
 ### 2.3 Install the pipeline
 
 ```
-git clone https://github.com/MGI-EU/MMHP_SOP_rmhost.git
+git clone https://github.com/wanglinqi123/MetaRef.git
 cd MetaRef
 ```
 
