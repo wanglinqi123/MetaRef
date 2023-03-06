@@ -23,26 +23,9 @@ You will need to download and install these packages before running MetaRef.
 
 ### 2.2 Prepare Database
 
-You can build your own reference database using the reference genome of interest.  Alternatively, we recommend that you download the pre-built reference databases MetaPhlAn3_db_25k and Env_db_6k. 
+MetaPhlAn3_db_25k is a well-curated microbial reference database comprised of 25635 bacterial, archaeal and eukaryotic reference genomes that is recommanded for the construction of reference of human metagenomic sequencing data.    The Env_db_6k database contains 5763 reference genomes of microorganisms associated with environmental metagenomes (mainly soil and water) and is recommanded for environmental metagenomic sequencing data.
 
-For human metagenomic sequencing data, it is recommended to use MetaPhlAn3_db_25k. 
-
-For environmental data, it is recommended to use both MetaPhlAn3_db_25k and Env_db_6k. 
-
-- MetaPhlAn3_db_25k (When using this database, the following files need to be downloaded)
-  - Reference
-    - MetaPhlAn3_db_25k.fa
-  - BWA index: indexed for MetaPhlAn3_db_25k
-    - MetaPhlAn3_db_25k.fa.amb, MetaPhlAn3_db_25k.fa.ann, MetaPhlAn3_db_25k.fa.bwt, MetaPhlAn3_db_25k.fa.pac, MetaPhlAn3_db_25k.fa.sa
-  - BWA shm: preloading index into memory
-    - bwactl, bwaidx-MetaPhlAn3_db_25k.fa
-- Env_db_6k  (When using this database, the following files need to be downloaded)
-  - Reference
-    - Env_db_6k.fa
-  - BWA index: indexed for Env_db_6k
-    - Env_db_6k.fa, Env_db_6k.fa.amb, Env_db_6k.fa.ann, Env_db_6k.fa.bwt, Env_db_6k.fa.pac, Env_db_6k.fa.sa
-  - BWA shm: preloading index into memory
-    - bwactl, bwaidx-Env_db_6k.fa
+The lists of accession numbers for the microbial genomes for the MetaPhlAn3_db_25k and Env_db_6ks databases are provided in BasicRefDB directory.   You can download the genomes using NCBI Entrez Direct (https://www.ncbi.nlm.nih.gov/books/NBK179288/) and build these two basic reference databases using build.sh.  Alternatively, you can build your own basic database using reference genomes of interest.
 
 ### 2.3 Install the pipeline
 
