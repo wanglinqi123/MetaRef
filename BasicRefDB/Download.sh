@@ -1,11 +1,9 @@
-##########
-# The script uses the accession number to download the genome sequence from NCBI 
-# and constructs the Env_db_6k basic reference database (the MetaPhlAn3_db_25k is also built in the same way).
-#
-# This script requires NCBI's entrez direct tool (https://www.ncbi.nlm.nih.gov/books/NBK179288/).
-##########
-
 #!/bin/bash
+##########################################################################################################################
+# The script uses the accession number to download the genome sequence from NCBI                                         #
+# for the construction of the Env_db_6k basic reference database (the MetaPhlAn3_db_25k is also built in the same way).  #
+##########################################################################################################################
+
 if [ ! -d output ];then mkdir -p output;fi
 
 for line in `cat Env_db_6k.ref.acc.list`;do
