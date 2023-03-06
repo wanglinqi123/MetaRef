@@ -25,7 +25,7 @@ You will need to download and install these packages before running MetaRef.
 
 MetaPhlAn3_db_25k is a well-curated microbial reference database comprised of 25635 bacterial, archaeal and eukaryotic reference genomes that is recommanded for the construction of reference of human metagenomic sequencing data.    The Env_db_6k database contains 5763 reference genomes of microorganisms associated with environmental metagenomes (mainly soil and water) and is recommanded for environmental metagenomic sequencing data.
 
-The lists of accession numbers for the microbial genomes for the MetaPhlAn3_db_25k and Env_db_6ks databases are provided in BasicRefDB directory.   You can download the genomes using NCBI Entrez Direct (https://www.ncbi.nlm.nih.gov/books/NBK179288/) and build these two basic reference databases using build.sh.  Alternatively, you can build your own basic database using reference genomes of interest.
+The lists of accession numbers for the microbial genomes for the MetaPhlAn3_db_25k and Env_db_6ks databases are provided in `BasicRefDB` directory. You can download the genomes using NCBI Entrez Direct (https://www.ncbi.nlm.nih.gov/books/NBK179288/) and build these two basic reference databases using `build.sh`. Alternatively, you can build your own basic database using reference genomes of interest.
 
 ### 2.3 Install the pipeline
 
