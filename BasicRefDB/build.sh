@@ -20,3 +20,6 @@ done
 
 ### Step3: Build reference index for the basic reference database. This step will generate five files: *.amb, *.ann, *.bwt, *.pac, *.sa.
 bwa index output/Env_db_6k.DB.fa
+
+### Step4：Preload reference index into RAM. This step will generate two files, bwactl and bwaidx-*, in the /dev/shm directory.
+bwa shm output/Env_db_6k.DB.fa
