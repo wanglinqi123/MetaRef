@@ -14,7 +14,7 @@ You will need to download and install these packages before running MetaRef.
 
 - Python: >= v3.6
   - Packages: metaphlan: v3.0.7
-- Perl: \>=v5.26.2
+- Perl: >=v5.26.2
 - Softwares
   - fastp: v0.20.1
   - bwa: v0.7.17
