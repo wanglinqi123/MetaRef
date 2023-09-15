@@ -34,7 +34,7 @@ git clone https://github.com/wanglinqi123/MetaRef.git
 cd MetaRef
 ```
 
-## 3 Usage
+## 3 Quick start
 
 ### 3.1 Configuration Preparation
 
